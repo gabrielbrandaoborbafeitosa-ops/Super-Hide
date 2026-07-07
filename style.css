@@ -3,4 +3,8 @@ body{
 }
 #player {
     position: absolute;
+      z-index: 0;
+}
+#esconderijos {
+      z-index: 1;
 }
