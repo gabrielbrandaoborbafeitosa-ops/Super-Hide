@@ -1,0 +1,6 @@
+body{
+    background-color: rgb(41, 82, 41);
+}
+#player {
+    position: absolute;
+}
