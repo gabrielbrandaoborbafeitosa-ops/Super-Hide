@@ -51,3 +51,11 @@ mover();
 function achar() {
     alert('Você achou!')
 }
+function tirarcursor() {
+  if(confirm('Retirar cursor?\no cursor não irá aparecer até recarregar a página') == true) {
+    document.body.style.cursor = "none";
+  }  
+}
+if (teclas[r]) {
+    location.reload();
+}
